@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Flaskapp</title>
+		<script type="module" src="{{url_for('static', filename='app.js')}}"></script>
+	</head>
+	<body>
+		<form action="/points" method="get">
+			<button type="submit">Update</button>
+		</form>
+		
+		<div id='heatmap' style="width: 1000px; height: 1000px">
+			<canvas width="1000" height="1000" style="position:absolute; left: 0; top: 0"></canvas>
+		</div>
+
+		<p id="pl">{{ point_list }}</p>
+	</body>
+</html>

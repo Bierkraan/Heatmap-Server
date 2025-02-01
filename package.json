@@ -1,0 +1,14 @@
+{
+  "name": "wifi-heatmap",
+  "version": "1.0.0",
+  "description": "Heatmap based on wifi signals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarno Hofstede",
+  "license": "ISC",
+  "dependencies": {
+    "heatmap.js": "^2.0.5"
+  }
+}
